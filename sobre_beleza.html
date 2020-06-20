@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8"> 
+    <link rel="stylesheet" href="css\sobrebeleza.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="js/sobrebeleza.js"></script>
+</head>
+<body>
+    <header>
+        <h1> Spa Day, em casa! </h1>
+               
+        <nav>
+            <ul>
+                <li><a href="sobre_beleza.html">Inicio</a></li>
+                <li><a href="index.html">pele</a></li>
+                <li><a href="cabelos.html">cabelos</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <section> 
+        <div>
+            <img src="imagens\spa day.jpg" width="300px">
+           <p> Estamos passando por tempos dificies, que de certa forma exige muito de nós.
+               Não é porque estamos em casa que a beleza temque ficar em segundo plano, né?</p>
+           <br/>
+            Ficar em isolamento social agora é um ato de solidariedade e de cuidado com a nossa saúde física e emocional.
+            <br/>
+
+            Saiba que quando cuidamos do visual, nosso humor e nossa autoestima também são beneficiados, isso porque qualquer mudança no exterior
+ 
+            tem uma ação enorme no nosso interior. 
+            <br/>
+            Portanto, darei algumas dicas de beleza na quarentena que vão te distrair enquanto você se cuida e fica ainda mais bonita!</div>
+        <div>
+            Receitas caseiras é uma ótima opção quando a ideia é diminuir os gastos com produtos prontos.
+            <br/>
+            <br/>
+            Primeiramente você precisa conecer a sua pele!!
+            <br/>
+            aquele produtinho que a sua amiga usa e resolveu te indicar pode ser péssimo pra você. 
+            <br/>
+            
+            Entenda e analise se a sua pele é normal, seca, oleosa ou mista e escolha o protudo que é recomendado pra cada tipo. 
+            <br/>
+            
+            Mesmo assim, encontrar os produtos que se dá melhor com a sua pele é um trabalho de tentativa e erro.  
+           <br/>
+            Mas não desanime!  
+        </div>
+    </section>
+    <p>Inscreva-se e receba novas dicas</p>
+            <form name="form1" action="enviar" method="post">
+                <label for:="linguagem">O que você precisa saber?</label>
+                <select id="linguagem"> 
+                        placeholder="tire sua duvida"
+                        <option value="cuidados com o rosto">cuidados com o rosto</option>
+                        <option value="cabelos">cabelos</option> 
+                 </select>        
+                <input type="text" name="nome" placeholder="Digite seu Nome">
+                <input type="email" name="email" placeholder="Digite seu Email">
+                <input type="submit" onclick="return validar()"  name="enviar" value="Enviar">
+            </form>
+        </div>
+        <script src="js/spaday.js"></script>
+
+        </body>
+
+    <footer>
+        <p> &copy;Vanessa França </p>
+    </footer>
+</body>
+</html>
